@@ -3,28 +3,29 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Ella Sarmiento | ESL</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-theme.min.css" />
+  <!--<link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">-->
   <link rel="stylesheet" href="./node_modules/admin-lte/dist/css/AdminLTE.min.css">
   <link rel="stylesheet" href="./node_modules/admin-lte/dist/css/skins/_all-skins.min.css">
 
 </head>
 
-<body ng-controller="AppCtrl">
-  
+<body class="hold-transition sidebar-mini fixed login-page">
+  <ui-view></ui-view>
 </body>
 
 <script>window.$ = window.jQuery = require('./node_modules/jquery/dist/jquery.js');</script>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="./node_modules/fastclick/lib/fastclick.js"></script>
-<script src="./node_modules/admin-lte/dist/js/app.min.js"></script>
+<!--<script src="./node_modules/admin-lte/dist/js/app.min.js"></script>-->
 <script src="./node_modules/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 <script src="./node_modules/angular/angular.min.js"></script>
 <script src="./node_modules/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
 <script src="./scripts/config.js"></script>
+<script src="./scripts/services.js"></script>
 <script src="./scripts/controllers.js"></script>
 
 </html>
