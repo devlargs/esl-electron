@@ -20,7 +20,9 @@
     "electron": "~1.6.2"
   },
   "dependencies": {
+    "@uirouter/angularjs": "^1.0.5",
     "admin-lte": "^2.3.11",
+    "angular": "^1.6.5",
     "bootstrap": "^3.3.7",
     "fastclick": "^1.0.6",
     "font-awesome": "^4.7.0",
